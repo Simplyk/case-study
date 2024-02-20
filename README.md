@@ -10,11 +10,17 @@ go version 1.22.0 - https://go.dev/doc/install
 
 ### Étapes
 
-`cd backend && go run server.go`
+#### GO
+
+`cd backend_go && go run server.go`
 
 OU
 
-`cd backend && go build && ./zbackend`
+`cd backend_go && go build && ./zbackend`
+
+#### Express
+
+`cd backend_epxress && yarn start`
 
 root api: localhost:1323/api/v1
 
