@@ -1,9 +1,10 @@
 import { Router, Request, Response } from 'express';
-import * as donations from "./100-last-donations.json";
+import { getDonations } from './repositories/donations';
 
 const router = Router();
 
 router.get('/', (req: Request, res: Response) => {
+    const donations = getDonations();
     res.json(donations);
 });
 
