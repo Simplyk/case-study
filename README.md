@@ -20,7 +20,7 @@ OU
 
 #### Express
 
-`cd backend_epxress && yarn start`
+`cd backend_express && yarn start`
 
 root api: localhost:1323/api/v1
 
