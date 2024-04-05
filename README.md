@@ -20,7 +20,7 @@ OU
 
 #### Express
 
-`cd backend_express && yarn start`
+`cd backend_express && yarn install && yarn dev`
 
 root api: localhost:1323/api/v1
 
@@ -40,7 +40,7 @@ node version >=18.17.0
 
 ### Étapes
 
-`cd zfrontend && yarn install && yarn build && yarn start`
+`cd zfrontend && yarn install && yarn dev`
 
 servi sur: localhost:3000
 
